@@ -1,0 +1,110 @@
+.portada-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../assets/portada3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  margin-bottom: 5px;
+
+
+
+
+  /* background-attachment: fixed; */
+}
+
+.portada-text {
+  color: white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  font-weight: 500;
+  text-align: start;
+  position: relative;
+  top: 20%;
+  height: 40%;
+  margin-bottom: 1rem;
+  font-family: "Amiri", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.portada-text P {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-family: "Amiri", serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.h1-portada {
+  font-size: 1.5rem;
+  width: 65%;
+  text-align: center;
+  line-height: 1.2;
+}
+
+/*  */
+
+.Download-button {
+  display: flex;
+  align-items: center;
+  font-family: "Amiri", serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 12px 20px;
+  color: white;
+  background: rgb(156, 139, 92);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em rgba(59, 48, 78, 0.527);
+  letter-spacing: 0.05em;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+}
+
+.Download-button svg {
+  margin-right: 8px;
+  width: 25px;
+}
+
+.Download-button:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em rgba(88, 71, 116, 0.627);
+}
+
+.Download-button:active {
+  box-shadow: 0 0.3em 1em -0.5em rgba(88, 71, 116, 0.627);
+}
+
+.Download-button::before {
+  content: "";
+  width: 4px;
+  height: 40%;
+  background-color: white;
+  position: absolute;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  left: 0;
+  transition: all 0.2s;
+}
+
+.Download-button::after {
+  content: "";
+  width: 4px;
+  height: 40%;
+  background-color: white;
+  position: absolute;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  right: 0;
+  transition: all 0.2s;
+}
+
+.Download-button:hover::before,
+.Download-button:hover::after {
+  height: 60%;
+}

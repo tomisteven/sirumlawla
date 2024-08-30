@@ -1,0 +1,29 @@
+.cont-imagenes-exclusivas {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Tres columnas iguales */
+    gap: 1rem; /* Espacio entre las imágenes */
+    padding: 20px;
+
+}
+
+.cont-imagenes {
+  display: contents; /* Ignora el contenedor y distribuye directamente en la cuadrícula */
+}
+
+.cont-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-imagen img {
+  max-width: 100%;
+  width: auto;
+
+  height: 100%;
+
+  object-fit: cover;
+}
+
+/* Hace que la cuarta imagen ocupe dos columnas en la segunda fila */
+
