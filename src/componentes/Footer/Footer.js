@@ -10,10 +10,10 @@ export default function Footer() {
           <img src={logo} alt=""/>
         </div>
         <div class="row">
-          <a href="#">
+          <a href="https://wa.link/1e1t0d">
             <i class="fa fa-whatsapp"></i>
           </a>
-          <a href="#">
+          <a href="https://wa.link/1e1t0d">
             <i class="fa fa-instagram"></i>
           </a>
         </div>
@@ -21,19 +21,19 @@ export default function Footer() {
         <div class="row">
           <ul>
             <li>
-              <a href="#">+54 11 3475 0981</a>
+              <a href="https://wa.link/1e1t0d">+54 11 3475 0981</a>
             </li>
             <li>
-              <a href="#">Decants 5Ml</a>
+              <a href="https://wa.link/1e1t0d">Decants 5Ml</a>
             </li>
             <li>
-              <a href="#">Envases Originales</a>
+              <a href="https://wa.link/1e1t0d">Envases Originales</a>
             </li>
             <li>
-              <a href="#">Envios</a>
+              <a href="https://wa.link/1e1t0d">Envios</a>
             </li>
             <li>
-              <a href="#">Puntos de retiro</a>
+              <a href="https://wa.link/1e1t0d">Puntos de retiro</a>
             </li>
           </ul>
         </div>
