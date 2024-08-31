@@ -9,6 +9,7 @@
 
 @media screen and (max-width: 768px) {
   .App {
+    background-image: url("./assets/texturacelular.png");
     background-size: cover;
 
     background-position: center;
