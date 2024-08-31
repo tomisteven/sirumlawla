@@ -16,18 +16,19 @@
     background-size: contain; /* Cambiado a 'contain' para evitar estiramiento */
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-blend-mode: normal;
+    background-attachment: scroll;
   }
 }
 
 @media screen and (max-width: 468px) {
   .App {
-    width: auto;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-blend-mode: normal;
+    background-attachment: scroll;
   }
 }
