@@ -12,7 +12,7 @@
     width: auto;
 
     background-image: url("./assets/texturacelular.png");
-    background-size: cover; /* Cambiado a 'contain' para evitar estiramiento */
+    background-size: contain; /* Cambiado a 'contain' para evitar estiramiento */
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -21,7 +21,7 @@
 @media screen and (max-width: 468px) {
   .App {
     width: auto;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
   }
