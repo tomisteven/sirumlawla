@@ -15,7 +15,7 @@
     background-image: url("./assets/texturacelular.png");
     background-size: contain; /* Cambiado a 'contain' para evitar estiramiento */
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     /* background-attachment: fixed; */
     background-blend-mode: normal;
     background-attachment: scroll;
@@ -26,7 +26,7 @@
   .App {
     background-size: contain;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     /* background-attachment: fixed; */
     background-blend-mode: normal;
     background-attachment: scroll;
