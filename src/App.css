@@ -1,6 +1,6 @@
 .App {
   padding: 20px;
-  background-image: url("./assets/texturaarabe.jpg");
+  background-image: url("./assets/texturaarabemin.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,5 +10,9 @@
 @media screen and (max-width: 768px) {
   .App {
     padding: 45px 10px 10px 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
