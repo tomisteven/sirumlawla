@@ -9,9 +9,10 @@
 
 @media screen and (max-width: 768px) {
   .App {
-    background-image: url("./assets/texturacelular.png");
-    background-size: cover;
+    width: auto;
 
+    background-image: url("./assets/texturacelular.png");
+    background-size: cover; /* Cambiado a 'contain' para evitar estiramiento */
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -19,17 +20,8 @@
 
 @media screen and (max-width: 468px) {
   .App {
+    width: auto;
     background-size: cover;
-
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-}
-
-@media screen and (max-width: 968px) {
-  .App {
-    background-size: cover;
-
     background-position: center;
     background-repeat: no-repeat;
   }
