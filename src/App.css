@@ -5,6 +5,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-blend-mode: normal;
 }
 
 @media screen and (max-width: 768px) {
@@ -16,6 +17,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-blend-mode: normal;
   }
 }
 
@@ -26,5 +28,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-blend-mode: normal;
   }
 }
