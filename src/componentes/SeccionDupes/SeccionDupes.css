@@ -8,16 +8,14 @@
   object-position: center;
 
   border-bottom: 1px solid rgb(255, 187, 0);
-
 }
-
 
 .cont-imagenes-2 {
   background-color: transparent;
 
   display: grid;
   grid-template-columns: repeat(
-    7,
+    4,
     1fr
   ); /* Cuatro columnas iguales */ /* Espacio entre las imágenes */
   padding-top: 60px;
@@ -230,4 +228,62 @@ button {
   width: 30px;
   height: 30px;
   cursor: pointer;
+}
+
+/*  */
+
+@media screen and (max-width: 768px) {
+  .cont-imagenes-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cont-imagen-2 img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .img-slider {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .titulo-fragancias{
+    font-size: 20px;
+
+  }
+
+
+  .cont-slider {
+    padding-bottom: 40px;
+  }
+
+  .cont-item-slider {
+    width: 40%;
+  }
+
+  .cont-slider-imagenes {
+    width: 100%;
+  }
+
+  .contenedor-imagen-notas {
+    height: 100%;
+  }
+
+  .imagen-notas {
+    height: 50vh;
+  }
+
+  .cont-slider-titulo {
+    padding-bottom: 30px;
+  }
+
+  .modal-contenido {
+    width: 100%;
+    height: 100%;
+  }
+
+  .imagen-grande {
+    width: 100%;
+  }
 }

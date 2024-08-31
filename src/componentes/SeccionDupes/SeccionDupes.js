@@ -39,15 +39,7 @@ export default function SeccionDupes() {
         <div className="cont-imagen-2">
           <img src={cuatro} alt="imagen exclusiva" />
         </div>
-        <div className="cont-imagen-2">
-          <img src={cinco} alt="imagen exclusiva" />
-        </div>
-        <div className="cont-imagen-2">
-          <img src={tres} alt="imagen exclusiva" />
-        </div>
-        <div className="cont-imagen-2">
-          <img src={cuatro} alt="imagen exclusiva" />
-        </div>
+
       </div>
       <h2 className="titulo-fragancias">DESCUBRE NUESTRAS FRAGANCIAS</h2>
       <div className="cont-slider-imagenes">

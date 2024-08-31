@@ -11,9 +11,6 @@
   border-radius: 50px;
   margin-bottom: 5px;
 
-
-
-
   /* background-attachment: fixed; */
 }
 
@@ -107,4 +104,32 @@
 .Download-button:hover::before,
 .Download-button:hover::after {
   height: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .portada-text {
+    width: 90%;
+    height: 50%;
+    top: 10%;
+    border: none;
+  }
+  .portada-text P {
+    font-size: 1rem;
+    width: 90%;
+  }
+  .portada-text strong {
+    display: none;
+
+  }
+  .h1-portada {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+  .Download-button {
+    font-size: 13px;
+    padding: 10px 15px;
+  }
+  .Download-button svg {
+    width: 20px;
+  }
 }

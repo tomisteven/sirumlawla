@@ -1,5 +1,4 @@
 .App {
-
   padding: 20px;
   background-image: url("./assets/texturaarabe.jpg");
   background-size: cover;
@@ -8,6 +7,8 @@
   background-attachment: fixed;
 }
 
-
-
-
+@media screen and (max-width: 768px) {
+  .App {
+    padding: 45px 10px 10px 10px;
+  }
+}

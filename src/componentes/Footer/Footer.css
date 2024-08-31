@@ -24,10 +24,10 @@
 .footer .row a:hover {
   color: #fff;
 }
-.footer .row img{
-    width: 290px;
-    height: 290px;
-    margin: -80px ;
+.footer .row img {
+  width: 290px;
+  height: 290px;
+  margin: -80px;
 }
 
 .footer .row ul {
@@ -54,6 +54,28 @@
     margin: 10px 0px;
     text-align: left;
   }
+  .footer .row a i {
+    margin: 0% 3%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer .row ul {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+
+  }
+  .footer .row ul li {
+    display: block;
+    margin: 16px 0px;
+    text-align: center;
+  }
+
   .footer .row a i {
     margin: 0% 3%;
   }

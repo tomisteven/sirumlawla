@@ -24,13 +24,13 @@ export default function Footer() {
               <a href="https://wa.link/1e1t0d">+54 11 3475 0981</a>
             </li>
             <li>
-              <a href="https://wa.link/1e1t0d">Decants 5Ml</a>
+              <a href="https://wa.link/1e1t0d">Decants 5ml</a>
             </li>
             <li>
               <a href="https://wa.link/1e1t0d">Envases Originales</a>
             </li>
             <li>
-              <a href="https://wa.link/1e1t0d">Envios</a>
+              <a href="https://wa.link/1e1t0d">Envios a todo el pais</a>
             </li>
             <li>
               <a href="https://wa.link/1e1t0d">Puntos de retiro</a>
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         <div class="row">
-          SIRUM LAWLA Copyright © 2024 Inferno - All rights reserved || Designed By:
+          SIRUM LAWLA Copyright © 2024 All rights reserved || Designed By:
           Factos.dev
         </div>
       </div>

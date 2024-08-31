@@ -1,9 +1,8 @@
 .cont-imagenes-exclusivas {
   display: grid;
   grid-template-columns: repeat(6, 1fr); /* Tres columnas iguales */
-    gap: 1rem; /* Espacio entre las imágenes */
-    padding: 20px;
-
+  gap: 1rem; /* Espacio entre las imágenes */
+  padding: 20px;
 }
 
 .cont-imagenes {
@@ -27,3 +26,9 @@
 
 /* Hace que la cuarta imagen ocupe dos columnas en la segunda fila */
 
+@media screen and (max-width: 768px) {
+  .cont-imagenes-exclusivas {
+    grid-template-columns: repeat(2, 1fr); /* Tres columnas iguales */
+    gap: 0.1rem; /* Espacio entre las imágenes */
+  }
+}
