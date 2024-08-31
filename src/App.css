@@ -15,6 +15,7 @@
     background-size: contain; /* Cambiado a 'contain' para evitar estiramiento */
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
 
@@ -24,5 +25,6 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
