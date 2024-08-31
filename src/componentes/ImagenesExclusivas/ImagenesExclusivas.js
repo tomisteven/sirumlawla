@@ -13,15 +13,7 @@ export default function ImagenesExclusivas() {
   return (
     <div className="cont-imagenes-exclusivas">
       <div className="cont-imagenes">
-        {/* <div className="cont-imagen-2">
-          <img src={uno} alt="imagen exclusiva" />
-        </div>
-        <div className="cont-imagen">
-          <img src={nueve} alt="imagen exclusiva" />
-        </div>
-        <div className="cont-imagen">
-          <img src={ocho} alt="imagen exclusiva" />
-        </div> */}
+
         <div className="cont-imagen">
           <img src={cinco} alt="imagen exclusiva" />
         </div>

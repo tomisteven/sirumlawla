@@ -9,10 +9,28 @@
 
 @media screen and (max-width: 768px) {
   .App {
-    padding: 45px 10px 10px 10px;
     background-size: cover;
+
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .App {
+    background-size: cover;
+
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .App {
+    background-size: cover;
+
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }

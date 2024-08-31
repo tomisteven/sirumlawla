@@ -30,5 +30,10 @@
   .cont-imagenes-exclusivas {
     grid-template-columns: repeat(2, 1fr); /* Tres columnas iguales */
     gap: 0.1rem; /* Espacio entre las imágenes */
+    padding: 10px;
+  }
+  .cont-imagen img{
+    width: 100%;
+    height: auto;
   }
 }
