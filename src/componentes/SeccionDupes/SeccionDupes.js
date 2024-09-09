@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import "./SeccionDupes.css";
-import logo from "../../assets/image.png";
+import logo from "../../assets/logonew.png";
 import fragancias from "./ImportImages";
 
 import dos from "../../assets/exclusiva2.jpg";

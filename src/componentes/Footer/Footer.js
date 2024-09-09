@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../../assets/image.png";
+import logo from "../../assets/logonew.png";
 
 export default function Footer() {
   return (
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         <div class="row">
-          SIRUM LAWLA Copyright © 2024 All rights reserved || Designed By:
+          SIRUN LAWLA Copyright © 2024 All rights reserved || Designed By:
           Factos.dev
         </div>
       </div>

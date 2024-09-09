@@ -6,7 +6,7 @@ export default function Portada() {
     <div className="portada-container">
       <div className="portada-text">
         <h1 className="h1-portada">
-          DESCUBRE EL ENCANTO DE LOS PERFUMES ARABES EN SIRUM LAWLA
+          DESCUBRE EL ENCANTO DE LOS PERFUMES ARABES EN SIRUN LAWLA
         </h1>
         <strong>Elegancia Oriental, Primeras Marcas y los mejores dupes.</strong>
         <p>Fragancias únicas que despiertan los sentidos</p>
